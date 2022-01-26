@@ -1,0 +1,22 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-color {
+  color: white;
+}
+
+.custom-border {
+  border: thick rgb(255, 255, 255) solid;
+  padding: 20px;
+  background-color: rgb(186, 186, 204);
+  border: solid 1px rgba(255, 255, 255, 0.72);
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 0px rgba(255, 255, 255, 1),
+    0 0 10px rgba(255, 255, 255, 1), 0 0 10px #ffffff, 0 0 15px #ffffff,
+    0 0 20px #ffffff, 0 0 30px #ffffff;
+  margin-top: 20px;
+}

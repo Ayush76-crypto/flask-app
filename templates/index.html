@@ -4,15 +4,15 @@
     {% endblock title %}
 {% block body %}
 
-    <div class="container">
-        <h2>Add a Todo</h2>
-        <form action="/" method="POST">
+    <div class="container my-4 col-md-4">
+        <h2 class="text-center fs-2 fw-bold custom-color">Add a Todo</h2>
+        <form action="/" method="POST" class="custom-border">
             <div class="mb-3">
-                <label for="title" class="form-label">Todo Title</label>
+                <label for="title" class="form-label fw-bold">Todo Title</label>
                 <input type="text" class="form-control" name="title" id="title" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
-                <label for="desc" class="form-label">Todo Description</label>
+                <label for="desc" class="form-label fw-bold">Todo Description</label>
                 <input type="text" class="form-control" name="desc" id="desc">
             </div>
 
@@ -21,15 +21,15 @@
     </div>
 
     <div class="container my-3">
-        <h2>Your Todo</h2>
+        <h2 class="text-center fs-2 fw-bold custom-color">Your Todo</h2>
 
         {% if allTodo|length == 0 %}
         <div class="alert alert-danger" role="alert">
             Hurray! You have no Todo's!
         </div>
         {% else %}
-        <table class="table">
-            <thead>
+        <table class="table table-light table-striped table-hover align-middle">
+            <thead class="table-dark">
                 <tr>
                     <th scope="col">SNo</th>
                     <th scope="col">Title</th>
