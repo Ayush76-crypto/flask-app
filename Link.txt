@@ -1,0 +1,3 @@
+Flask App | App made while hands-on learning.
+
+Link of the Deployed Project: https://practise-flask-project-app.herokuapp.com/
