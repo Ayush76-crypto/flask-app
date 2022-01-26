@@ -4,9 +4,9 @@
     {% endblock title %}
 {% block body %}
 
-    <div class="container">
-        <h2>Update your Todo</h2>
-        <form action="/update/{{todo.sno}}" method="POST">
+    <div class="container my-4 col-md-4">
+        <h2 class="text-center fs-2 fw-bold custom-color">Update your Todo</h2>
+        <form action="/update/{{todo.sno}}" method="POST"  class="custom-border">
             <div class="mb-3">
                 <label for="title" class="form-label">Todo Title</label>
                 <input type="text" class="form-control" name="title" id="title" value="{{todo.title}}" aria-describedby="emailHelp">
